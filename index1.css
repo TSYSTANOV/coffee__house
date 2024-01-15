@@ -58,10 +58,14 @@ a.header_phone {
 .header {
   border-bottom: 1px solid #32323d;
   background: rgba(0, 0, 0, 0.5);
+  transform-style: preserve-3d;
   position: sticky;
+  /* transform: rotateX(-90deg) translateY(45px) translateZ(-60px); */
+  transition: 0.5s;
   top: 0;
   z-index: 6;
 }
+
 .line_header {
   border-bottom: 1px solid #32323d;
 }
